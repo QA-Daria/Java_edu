@@ -14,13 +14,12 @@ public class Task8 {
             return factorial;}
 
       if (n<0) {
-          System.out.println("не бывает отриц факториала");
           return 0;
         }
-        else
+        if (n==0)
           for (int i = 2; i <= n; i++) {factorial *= i;}
 
-        return factorial;
+        return 0;
 
         }
 
