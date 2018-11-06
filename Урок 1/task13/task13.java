@@ -1,18 +1,14 @@
-import com.sun.org.apache.xpath.internal.operations.String;
-
-public class task13 {
-
+public class Task13 {
     public static void main(String[] args) {
 
-   /*     outFio = new String[2];
-
-        String [] outFio = new String[2];
-
-        outFio[0] = 'Borisova";
-        outFio[1]= 'Daria';
-        outFio[2]='Yrievna';
+        String [] fio = new String[3];
+        fio[0]= "Borisova";
+        fio[1]= "Daria";
+        fio[2]= "Yirievna";
 
 
-**/
+
+        System.out.println(fio[0]);
+        System.out.println(fio[1]);
     }
 }
