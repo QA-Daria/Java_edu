@@ -1,7 +1,7 @@
 public class Task8 {
 
     public static void main (String[]args){
-        System.out.println(Task8(0));
+        System.out.println(Task8(3));
     }
 
     public static int Task8(int n) {
@@ -13,21 +13,10 @@ public class Task8 {
 
             return factorial;}
 
-      if (n<0) {
+      else
           return 0;
-        }
-        if (n==0)
-          for (int i = 2; i <= n; i++) {factorial *= i;}
-
-        return 0;
 
         }
-
-
-
-
-
-
 }
 
 
