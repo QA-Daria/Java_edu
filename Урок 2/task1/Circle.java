@@ -26,14 +26,13 @@ public class Circle {
         return radius;
     }
 
-    // метод для задания color
-    public String setColor() {
-        return color;
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    // метод для задания radius
-    public double setRadius() {
-        return radius;
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 
     // метод для получения цвета
@@ -44,6 +43,10 @@ public class Circle {
     // метод вычисления площади круга
     public double getArea() {
         return radius * radius * Math.PI;
+    }
+
+    public String toString() {
+        return "Circle [Радиус круга="+ radius + "Цвет Круга = " + color + ", Площадь =" + getArea() + "]";
     }
 
 
