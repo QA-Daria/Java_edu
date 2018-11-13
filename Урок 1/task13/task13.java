@@ -1,14 +1,21 @@
-public class Task13 {
-    public static void main(String[] args) {
+public class Main {
 
-        String [] fio = new String[3];
-        fio[0]= "Borisova";
-        fio[1]= "Daria";
-        fio[2]= "Yirievna";
+    public static void main (String[] args) {
 
+        System.out.println(format("Гуляев Гавриил Парфеньевич"));
 
-
-        System.out.println(fio[0]);
-        System.out.println(fio[1]);
     }
+
+    public static String format(String a){
+
+        return a;
+    }
+
+
 }
+
+/**
+ * Напишите метод который принимает ФИО и выводит на экран "Фамилия Имя"
+ * Пример:
+ * 	format("Гуляев Гавриил Парфеньевич"); // выведет на экран "Гуляев Гавриил"
+ */
